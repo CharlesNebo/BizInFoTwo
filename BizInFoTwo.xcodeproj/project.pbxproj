@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220FBFF118054E0A00161A10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FBFF018054E0A00161A10 /* MapKit.framework */; };
 		2230A2791803EFB300C76EA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2230A2781803EFB300C76EA0 /* UIKit.framework */; };
 		2230A27B1803EFB300C76EA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2230A27A1803EFB300C76EA0 /* Foundation.framework */; };
 		2230A27D1803EFB300C76EA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2230A27C1803EFB300C76EA0 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220FBFF018054E0A00161A10 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2230A2751803EFB300C76EA0 /* BizInFoTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizInFoTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2230A2781803EFB300C76EA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2230A27A1803EFB300C76EA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220FBFF118054E0A00161A10 /* MapKit.framework in Frameworks */,
 				2230A2791803EFB300C76EA0 /* UIKit.framework in Frameworks */,
 				2230A27B1803EFB300C76EA0 /* Foundation.framework in Frameworks */,
 				2230A27D1803EFB300C76EA0 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		2230A26C1803EFB300C76EA0 = {
 			isa = PBXGroup;
 			children = (
+				220FBFF018054E0A00161A10 /* MapKit.framework */,
 				2230A27E1803EFB300C76EA0 /* BizInFoTwo */,
 				2230A2771803EFB300C76EA0 /* Frameworks */,
 				2230A2761803EFB300C76EA0 /* Products */,
@@ -298,6 +302,7 @@
 				2230A29A1803EFB300C76EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
